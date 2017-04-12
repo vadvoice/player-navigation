@@ -1,0 +1,32 @@
+body {
+  color: orange;
+  background: #888; }
+  body::after {
+    content: '';
+    display: block;
+    clear: both; }
+
+#player {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: red;
+  color: #444;
+  transition: all .1s; }
+
+.core {
+  position: absolute;
+  display: block;
+  width: 10px;
+  height: 10px;
+  background: yellow;
+  border-radius: 50%; }
+
+.wall {
+  position: absolute;
+  right: 20px;
+  top: 0;
+  display: block;
+  height: 100vh;
+  width: 10px;
+  background: blue; }
