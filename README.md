@@ -18,4 +18,4 @@ Publish contents to Github pages
 gulp deploy
 ```
 
-demo: https://willfulaversion.github.io/player-navigation/
+demo: https://vadvoice.github.io/player-navigation/
